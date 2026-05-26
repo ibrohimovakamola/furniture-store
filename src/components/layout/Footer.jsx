@@ -1,4 +1,4 @@
-import { Instagram, Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const collections = ['Sofas', 'Beds', 'Chairs', 'Tables', 'Lighting'];
@@ -83,7 +83,7 @@ export default function Footer() {
                 hello@maisonluxe.example
               </li>
               <li className="flex gap-3">
-                <Instagram className="h-5 w-5 text-stone-400" />
+                <Mail className="h-5 w-5 text-stone-400" />
                 @maisonluxe
               </li>
             </ul>

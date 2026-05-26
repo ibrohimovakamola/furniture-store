@@ -1,4 +1,4 @@
-import { Instagram } from 'lucide-react';
+import { Camera } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader.jsx';
 import { instagramGallery } from '../../data/siteContent.js';
 
@@ -25,7 +25,7 @@ export default function InstagramGallery() {
               loading="lazy"
             />
             <span className="absolute inset-0 flex items-center justify-center bg-stone-950/0 text-white opacity-0 transition duration-300 group-hover:bg-stone-950/35 group-hover:opacity-100">
-              <Instagram className="h-7 w-7" />
+              <Camera className="h-7 w-7" />
             </span>
           </a>
         ))}

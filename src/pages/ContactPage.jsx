@@ -56,7 +56,7 @@ export default function ContactPage() {
             <label className="grid gap-2 text-sm font-semibold text-stone-700 dark:text-stone-200">
               First name
               <input
-                className="h-13 rounded-2xl border border-stone-200 bg-stone-50 px-4 outline-none transition focus:border-stone-950 dark:border-stone-700 dark:bg-stone-950 dark:focus:border-stone-300"
+                className="h-14 rounded-2xl border border-stone-200 bg-stone-50 px-4 outline-none transition focus:border-stone-950 dark:border-stone-700 dark:bg-stone-950 dark:focus:border-stone-300"
                 required
                 type="text"
               />
@@ -64,7 +64,7 @@ export default function ContactPage() {
             <label className="grid gap-2 text-sm font-semibold text-stone-700 dark:text-stone-200">
               Last name
               <input
-                className="h-13 rounded-2xl border border-stone-200 bg-stone-50 px-4 outline-none transition focus:border-stone-950 dark:border-stone-700 dark:bg-stone-950 dark:focus:border-stone-300"
+                className="h-14 rounded-2xl border border-stone-200 bg-stone-50 px-4 outline-none transition focus:border-stone-950 dark:border-stone-700 dark:bg-stone-950 dark:focus:border-stone-300"
                 required
                 type="text"
               />
@@ -73,7 +73,7 @@ export default function ContactPage() {
           <label className="mt-5 grid gap-2 text-sm font-semibold text-stone-700 dark:text-stone-200">
             Email
             <input
-              className="h-13 rounded-2xl border border-stone-200 bg-stone-50 px-4 outline-none transition focus:border-stone-950 dark:border-stone-700 dark:bg-stone-950 dark:focus:border-stone-300"
+              className="h-14 rounded-2xl border border-stone-200 bg-stone-50 px-4 outline-none transition focus:border-stone-950 dark:border-stone-700 dark:bg-stone-950 dark:focus:border-stone-300"
               required
               type="email"
             />
